@@ -1,0 +1,25 @@
+.education {
+  background-color:#d5d5d56d
+}
+
+.container {
+  padding: 20px 100px 50px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.education_title {
+  font-weight: bold;
+}
+
+.desc {
+  margin-top: 16px;
+}
+
+.desc p {
+  width: 50%;
+}

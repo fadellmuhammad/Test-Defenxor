@@ -1,0 +1,85 @@
+.container {    
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+.logo {
+  margin: 10px;
+}
+
+.logo img {
+  max-width: 100%;
+  width: 300px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column; 
+  width: 400px;
+  max-width: 100%;
+}
+
+.form input {
+  padding: 2px 10px;
+  height: 30px;
+  border-radius: 7px;
+  border: 1px solid rgb(210, 210, 210);
+}
+
+.form input:hover {
+  outline-color: rgb(167, 167, 167);
+}
+
+.form input:focus{
+  outline-color: rgb(167, 167, 167);
+}
+
+.warning_message {
+  font-size: 12px;
+  color: red;
+  margin: 5px 5px 8px 5px;
+}
+
+.checkbox_container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;  
+}
+
+.checkbox_container input {
+  width: 15px;
+}
+
+.checkbox_container input, p{
+  margin: 0;
+}
+
+.checkbox_container input{
+  margin: 3px 5px 0 0;
+}
+
+.remember {
+  margin-top: 2px;
+  font-size: 12px;
+}
+
+.button {
+  height: 40px;
+  background-color: #2c59be;
+  border-radius: 7px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.138);
+}

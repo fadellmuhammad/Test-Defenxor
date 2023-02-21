@@ -1,0 +1,74 @@
+.mainpage {
+  margin: 0 100px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.search_container {
+  height: 30px;
+  display: flex;
+}
+.search_container input {
+  border: 1px solid rgb(210, 210, 210);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.name {
+  color: rgb(82, 82, 255);
+  text-decoration: none;
+}
+
+.search_container input:focus {
+  outline-color: rgb(167, 167, 167);
+}
+
+.btn_sort button {
+  padding: 5px 20px;
+  background-color: white;
+  color: black;
+  border: 1px solid rgb(210, 210, 210);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.table_container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table_container th,td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.select_item {
+  padding: 5px;
+}
+
+.control_page {
+  display: flex;
+}
+
+.button {
+  background-color: white;
+  padding: 3px 10px;
+  margin: 2px;
+  border: 1px solid rgb(210, 210, 210);
+  cursor: pointer;
+}
+
+.route {
+  margin-bottom: 10px;
+}

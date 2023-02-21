@@ -1,0 +1,14 @@
+.container {
+  margin: 20px 100px 50px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 35px;
+  padding-top: 25px;
+  margin-bottom: 15px;
+}
+
+.experience_title {
+  font-weight: bold;
+}
