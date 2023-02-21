@@ -1,7 +1,5 @@
 Test-Defenxor
 
 User Testing Login
----
-email: 'fadel@gmail.com'
-
-password: '111111'
+email: fadel@gmail.com
+password: 111111
